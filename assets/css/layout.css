@@ -1,0 +1,48 @@
+.parallax {
+    /* The image used */
+    background-image: url("../images/c.jpg");
+
+    /* Set a specific height */
+    min-height: 786px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+ .personal_info{
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+
+    
+} 
+
+
+/* navbar start */
+
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1900px;
+}
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
+
+/* navbar end */
+
+
